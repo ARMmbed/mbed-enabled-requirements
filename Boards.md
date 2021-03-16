@@ -55,9 +55,6 @@ This set of requirements aims at constrained and maintream devices.
     * [B-HA-1] MUST implement [AnalogIn](https://github.com/ARMmbed/mbed-os/blob/master/hal/include/hal/analogin_api.h) and [AnalogOut](https://github.com/ARMmbed/mbed-os/blob/master/hal/include/hal/analogout_api.h) if provided by the MCU
     * [B-HP-1] MUST implement [PWM](https://github.com/ARMmbed/mbed-os/blob/master/hal/include/hal/pwmout_api.h) if provided by the MCU
     * [B-HF-1] SHOULD pass [FPGA shield tests](https://github.com/ARMmbed/mbed-os/tree/master/hal/tests/TESTS/mbed_hal_fpga_ci_test_shield) for peripheral drivers
-* [B-STD-CON] Support for standard pin-names and connectors
-    * [B-STD-CON1] SHOULD support common pin-names for LED/BUTTONs and UART over [interface](./Interfaces.md) to PC. See [porting guide](https://github.com/ARMmbed/mbed-os-5-docs/pull/1417/files)
-    * [B-STD-CON2] SHOULD support the Arduino UNO standard if the board has a connector compliant. See [porting guide](https://github.com/ARMmbed/mbed-os-5-docs/pull/1417/files)
 * [B-RC] RTC
     * [B-RC-1] MUST implement RTC support if provided by MCU or board. See [porting & testing guide](https://os.mbed.com/docs/mbed-os/latest/porting/rtc-port.html)
 * [B-ES] Entropy source / TRNG
