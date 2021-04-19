@@ -14,7 +14,9 @@ The Mbed Enabled requirements apply to specific versions of Mbed OS.
 
 | Mbed Enabled requirements  | Mbed OS  |
 | ---------------------------| ---------|
+| v1.2.1                     | 6.10+    |
 | v1.2.0                     | 6.9+     |
+
 
 See list of [release versions](https://github.com/ARMmbed/mbed-enabled-requirements/releases).
 
